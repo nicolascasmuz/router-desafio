@@ -1,0 +1,20 @@
+.buttons {
+  height: 61px;
+  display: flex;
+}
+
+.buttons__inbox, .buttons__sent {
+  width: 50%;
+  color: #fff;
+  background-color: #888;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.4d8a3099.css.map */

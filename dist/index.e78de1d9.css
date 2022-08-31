@@ -1,0 +1,31 @@
+.header {
+  background-color: #000;
+  padding: 25px 22px;
+}
+
+.header__form {
+  justify-content: center;
+  gap: 13px;
+  display: flex;
+}
+
+.header__input {
+  height: 44px;
+  min-width: 169px;
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+}
+
+.header__button {
+  color: #fff;
+  width: 77px;
+  height: 44px;
+  background-color: #393939;
+  border-style: none;
+  border-radius: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.e78de1d9.css.map */

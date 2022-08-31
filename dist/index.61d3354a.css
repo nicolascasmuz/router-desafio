@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .general-grid {
+    grid-template-rows: auto;
+    grid-template-columns: 30% auto;
+    display: grid;
+  }
+}
+
+.header {
+  height: 90px;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 22px;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .header {
+    height: 120px;
+    grid-area: 1 / 1;
+    justify-content: flex-start;
+  }
+}
+
+.header__form {
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .header__form {
+    gap: 35px;
+  }
+}
+
+.header__link-logo {
+  width: 66px;
+  height: 44px;
+  background-color: #849fff;
+}
+
+@media (min-width: 769px) {
+  .header__link-logo {
+    width: 106px;
+    height: 64px;
+  }
+}
+
+.header__input {
+  width: 169px;
+  height: 44px;
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+}
+
+@media (min-width: 769px) {
+  .header__input {
+    min-width: 420px;
+    height: 64px;
+    font-size: 32px;
+  }
+}
+
+.header__button {
+  color: #fff;
+  width: 77px;
+  height: 44px;
+  background-color: #393939;
+  border-style: none;
+  border-radius: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (min-width: 769px) {
+  .header__button {
+    width: 106px;
+    height: 64px;
+    font-size: 25px;
+  }
+}
+
+.section-buttons {
+  height: 61px;
+  height: 61px;
+  background-color: #c4c4c4;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .section-buttons {
+    height: calc(100vh - 120px);
+    background-color: #c4c4c4;
+    flex-direction: column;
+    grid-column: 1;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 27px;
+    padding-top: 30px;
+  }
+}
+
+.button {
+  width: 50%;
+  color: #fff;
+  background-color: #888;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .button {
+    width: 80%;
+    max-width: 300px;
+    height: 73px;
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
